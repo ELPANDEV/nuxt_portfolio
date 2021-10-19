@@ -5,3 +5,5 @@ type technology_name =
   |'ts'
   |'dart'
   |'php'
+  |'css'
+  |'js'

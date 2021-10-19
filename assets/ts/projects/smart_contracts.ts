@@ -8,7 +8,7 @@ const smart_contracts: interface_project = {
   name: 'Smart Contracts',
   description: 'Web app for Diners Club about digital signs and investment documents.',
   image: '/images/smart_contracts.png',
-  link: '',
+  link: 'https://www.dce.todo.legal/',
   frameworks: [
     nuxt,
     vue,

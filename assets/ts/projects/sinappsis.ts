@@ -7,7 +7,7 @@ const sinappsis: interface_project = {
   name: 'Sinappsis',
   description: 'Application to learn about abstract, logic and numerical reasoning, ideally for practices psychotechnical tests',
   image: '/images/sinappsis.png',
-  link: '',
+  link: 'https://play.google.com/store/apps/details?id=com.ELPANDEV.sinappsis&hl=en_US',
   frameworks: [
     node,
     flutter,

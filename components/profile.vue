@@ -2,8 +2,8 @@
   <div class="v-profile">
     <h1>Francisco Moncayo</h1>
     <strong>Nuxt/Vue Developer</strong>
-    <p>Programador autodidacta desde el 2016, más exactamente el 26 de junio del 2016, día en el que registro mi primer videojuego en google play.</p>
-    <p>Conozco y me desenvuelvo bien en varias tecnologías pero con el tiempo me he especializado en Laravel (PHP), Vue/Nuxt (TS) y Flutter (Dart), siendo Laravel y Vue las tecnologías con las que más trabajo en mi día a día.</p>
+    <p><b>Self-taught programmer since 2016</b>, more exactly on June 26, 2016, the day I registered my first video game on google play. I know and do well in various technologies but over time I have specialized in <b>Laravel (PHP)</b>, <b>Nuxt/Vue (TS)</b>, being the technology that I use each day.</p>
+    <p>However, I also know about <b>GCP (Google Cloud Platform)</b> especially when I need hosting and managing the web applications of my freelance projects.</p>
   </div>
 </template>
 

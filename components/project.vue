@@ -12,14 +12,12 @@
     </header>
 
     <footer>
-      <ul class="frameworks">
-        <li class="framework"
-          v-for="({ image, name }, i) in [...project.frameworks, ...project.technologies]"
-          :key="`framework${i}${uuid}`"
-        >
-          <img :src="image" :alt="name">
-          {{ name }}
-        </li>
+      <ul>
+        <v-technology
+          v-for="(technology, i) in [...project.frameworks, ...project.technologies]"
+          :key="`technology${i}${uuid}`"
+          :technology="technology"
+        />
       </ul>
     </footer>
   </article>
@@ -75,21 +73,6 @@ export default Vue.extend({
       align-items: center;
       flex-wrap: wrap;
       gap: 6px;
-      li {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        gap: 0 4px;
-        align-items: center;
-        border: 1px solid #ddd;
-        padding: 4px 9px;
-        font-size: 11px;
-        border-radius: 6px;
-        text-transform: uppercase;
-        img {
-          width: 24px;
-          height: 24px;
-        }
-      }
     }
   }
 }

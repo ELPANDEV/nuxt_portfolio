@@ -9,6 +9,7 @@ const linkedin: interface_project = {
   name: 'Linkedin',
   description: 'Professional social network oriented to business and professional relationships.',
   image: '/images/linkedin.png',
+  link: 'https://elpandev.github.io/nuxt_linkedin/',
   frameworks: [
     node,
     nuxt,

@@ -7,7 +7,7 @@ const anato: interface_project = {
   name: 'Anato',
   description: 'Application to learn about human anatomy using quizzes and tasks.',
   image: '/images/anato.png',
-  link: '',
+  link: 'https://play.google.com/store/apps/details?id=com.ElPaN.MegaQuizDeAnatomiaHumana&hl=en_US',
   frameworks: [
     node,
     flutter,

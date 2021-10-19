@@ -10,7 +10,7 @@ const learning_bridge_academy: interface_project = {
   name: 'Learning Bride Academy',
   description: 'Web app to administer students and teachers, similar to d2l.',
   image: '/images/learning_bridge_academy.png',
-  link: '',
+  link: 'https://learningbridge.academy/',
   frameworks: [
     laravel,
     nuxt,

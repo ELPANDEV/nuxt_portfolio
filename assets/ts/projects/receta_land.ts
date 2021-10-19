@@ -10,7 +10,7 @@ const receta_land: interface_project = {
   name: 'Receta Land',
   description: 'Web to publish cook recipes.',
   image: '/images/receta_land.png',
-  link: '',
+  link: 'https://receta.land/',
   frameworks: [
     laravel,
     vue,

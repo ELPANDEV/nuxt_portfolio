@@ -13,7 +13,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'NUXT TEMPLATE',
+    title: 'PORTFOLIO - ELPANDEV',
     htmlAttrs: {
       lang: 'en'
     },
@@ -24,7 +24,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: `${process.env.BASE_URL}/favicon.ico` }
+      { rel: 'icon', type: 'image/x-icon', href: `${process.env.BASE_URL}/icon.png` }
     ]
   },
 

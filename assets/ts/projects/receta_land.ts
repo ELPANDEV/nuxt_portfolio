@@ -6,15 +6,15 @@ import php from "../technologies/php"
 import scss from "../technologies/scss"
 import ts from "../technologies/ts"
 
-const learning_bridge_academy: interface_project = {
-  name: 'Learning Bride Academy',
-  description: 'Web app to administer students and teachers, similar to d2l.',
-  image: '/images/learning_bridge_academy.png',
+const receta_land: interface_project = {
+  name: 'Receta Land',
+  description: 'Web to publish cook recipes.',
+  image: '/images/receta_land.png',
   link: '',
   frameworks: [
     laravel,
-    nuxt,
     vue,
+    nuxt,
   ],
   technologies: [
     html,
@@ -24,4 +24,4 @@ const learning_bridge_academy: interface_project = {
   ],
 }
 
-export default learning_bridge_academy
+export default receta_land

@@ -15,5 +15,18 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-
+.v-profile {
+  display: grid;
+  gap: 6px 0;
+  h1 {
+    font-size: 24px;
+  }
+  strong {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  p {
+    margin-top: 9px;
+  }
+}
 </style>

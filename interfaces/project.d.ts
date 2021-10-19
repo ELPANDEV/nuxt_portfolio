@@ -1,7 +1,8 @@
 interface interface_project {
   name:         string
   description:  string
-  image:        `${string}.jpg`
+  link:         string
+  image:        `${string}.${'jpg'|'png'}`
   frameworks:   interface_framework[]
   technologies: interface_technology[]
 }

@@ -73,8 +73,8 @@ export default {
 
   styleResources: {
     scss: [
-      './assets/variables.scss',
-      '~/assets/mixins.scss',
+      '~/assets/scss/variables.scss',
+      '~/assets/scss/mixins.scss',
       ]
   },
 

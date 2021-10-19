@@ -12,3 +12,9 @@ export default Vue.extend({
   
 })
 </script>
+
+<style lang="scss">
+.v-layout {
+
+}
+</style>

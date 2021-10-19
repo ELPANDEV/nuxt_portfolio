@@ -1,6 +1,6 @@
 const scss: interface_technology = {
   name: 'scss',
-  image: 'scss.png'
+  image: '/images/scss.png'
 }
 
 export default scss

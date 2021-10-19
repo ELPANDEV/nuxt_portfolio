@@ -1,6 +1,6 @@
 const ts: interface_technology = {
   name: 'ts',
-  image: 'ts.png'
+  image: '/images/ts.png'
 }
 
 export default ts

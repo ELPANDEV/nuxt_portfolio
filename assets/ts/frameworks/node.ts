@@ -1,6 +1,6 @@
 const node: interface_framework = {
   name: 'node',
-  image: 'node.png'
+  image: '/images/node.png'
 }
 
 export default node

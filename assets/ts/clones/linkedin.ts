@@ -8,7 +8,7 @@ import ts from "../technologies/ts"
 const linkedin: interface_project = {
   name: 'Linkedin',
   description: 'Professional social network oriented to business and professional relationships.',
-  image: 'linkedin.jpg',
+  image: '/images/linkedin.png',
   frameworks: [
     node,
     nuxt,

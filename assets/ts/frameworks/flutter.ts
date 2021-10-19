@@ -1,6 +1,6 @@
 const flutter: interface_framework = {
   name: 'flutter',
-  image: 'flutter.png'
+  image: '/images/flutter.png'
 }
 
 export default flutter

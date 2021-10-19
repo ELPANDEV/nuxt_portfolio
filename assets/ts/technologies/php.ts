@@ -1,6 +1,6 @@
 const php: interface_technology = {
   name: 'php',
-  image: 'php.png'
+  image: '/images/php.png'
 }
 
 export default php

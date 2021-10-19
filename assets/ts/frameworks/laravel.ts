@@ -1,6 +1,6 @@
 const laravel: interface_framework = {
   name: 'laravel',
-  image: 'laravel.png'
+  image: '/images/laravel.png'
 }
 
 export default laravel

@@ -4,9 +4,10 @@ import dart from "../technologies/dart"
 import ts from "../technologies/ts"
 
 const sinappsis: interface_project = {
-  name: 'sinappsis',
-  description: 'asdsad',
-  image: 'sinappsis.jpg',
+  name: 'Sinappsis',
+  description: 'Application to learn about abstract, logic and numerical reasoning, ideally for practices psychotechnical tests',
+  image: '/images/sinappsis.png',
+  link: '',
   frameworks: [
     node,
     flutter,

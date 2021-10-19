@@ -6,8 +6,9 @@ import ts from "../technologies/ts"
 
 const smart_contracts: interface_project = {
   name: 'Smart Contracts',
-  description: 'asdsad',
-  image: 'smart_contracts.jpg',
+  description: 'Web app for Diners Club about digital signs and investment documents.',
+  image: '/images/smart_contracts.png',
+  link: '',
   frameworks: [
     nuxt,
     vue,

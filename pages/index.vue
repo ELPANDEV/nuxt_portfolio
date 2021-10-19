@@ -1,46 +1,33 @@
 <template>
   <div class="x-index">
     <v-profile />
-
-    <v-section
-      :title="'Projects'"
-      :description="'Systems that I created/participated while I was working in companies'"
-    >
-      <v-project
-        v-for="(project, i) in projects"
-        :key="`project${i}${uuid}`"
-        :project="project"
-      />
-    </v-section>
-
-    <v-section
-      :title="'Clones'"
-      :description="'Famous website that I cloned to show my skills'"
-    >
-      <v-project
-        v-for="(clone, i) in clones"
-        :key="`clone${i}${uuid}`"
-        :project="clone"
-      />
-    </v-section>
-
-    <v-section
-      :title="'Experience'"
-      :description="'My timeline of experience working in companies'"
-    />
+    <nuxt-child />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import projects from "~/assets/ts/projects";
-import clones from "~/assets/ts/clones";
 export default Vue.extend({
-  data() {
-    return {
-      projects,
-      clones
-    }
-  }
+
 })
 </script>
+
+<style lang="scss">
+.x-index {
+  display: grid;
+  gap: 24px 0;
+  align-content: baseline;
+  padding: 18px 24px;
+  max-width: $w768;
+  width: 100%;
+  margin: 0 auto;
+  h1, h2, h3 {
+    &::before {
+      content: '#';
+      color: $blue;
+      margin-right: 9px;
+      font-family: Roboto;
+    }
+  }
+}
+</style>

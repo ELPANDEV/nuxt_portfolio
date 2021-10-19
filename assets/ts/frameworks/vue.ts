@@ -1,6 +1,6 @@
 const vue: interface_framework = {
   name: 'vue',
-  image: 'vue.png'
+  image: '/images/vue.png'
 }
 
 export default vue

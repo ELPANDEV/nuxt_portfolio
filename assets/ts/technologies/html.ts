@@ -1,6 +1,6 @@
 const html: interface_technology = {
   name: 'html',
-  image: 'html.png'
+  image: '/images/html.png'
 }
 
 export default html

@@ -1,6 +1,6 @@
 const nuxt: interface_framework = {
   name: 'nuxt',
-  image: 'nuxt.png'
+  image: '/images/nuxt.png'
 }
 
 export default nuxt

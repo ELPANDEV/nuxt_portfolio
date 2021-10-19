@@ -1,6 +1,6 @@
 <template>
   <li class="v-technology">
-    <img :src="technology.image" :alt="technology.name">
+    <img :src="`${$config.BASE_URL}${technology.image}`" :alt="technology.name">
     {{ technology.name }}
   </li>
 </template>
